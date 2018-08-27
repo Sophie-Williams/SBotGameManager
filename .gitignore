@@ -1,0 +1,38 @@
+# Файлы, создаваемые текстовыми редакторами
+.idea
+*.sublime-project
+*.sublime-workspace
+*.orig
+*.bak
+
+# Файлы системы
+/vendor/
+/vendor
+
+# Архивы
+*.tar.gz*
+*.tar
+*.zip
+*.7z
+*.cab
+*.exe
+*.rar
+*.pak
+*.zipx
+
+# Текстовые и прочие файлы
+*.ini
+*.xml
+*.txt
+*.dt
+*.psd
+*.pdf
+*.log
+*.sql
+!/backups/*.sql
+!/i/robots.txt
+*.service
+
+# Исключения для композера
+composer.phar
+composer.lock

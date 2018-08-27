@@ -1,0 +1,8 @@
+{
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "coderstephen/slack-client": "^0.3.0",
+    "wrapi/slack": "^1.0"
+  }
+}
