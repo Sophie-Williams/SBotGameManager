@@ -100,9 +100,10 @@ class Bot
                 $message = ":fire: *!match(2,4)* - начать игру\n";
                 $message .= ":fire: *+* - вступить в игру\n";
                 $message .= ":fire: *!cancel* - отменить игру\n";
-                $message .= ":fire: *когда игра заканчивается, ставим* :muscle: *под комменты победителей,*\n*игра считается завершенной, если всем победителям досталось по ручке*\n";
+                $message .= ":fire: *когда игра заканчивается, ставим* :muscle: *под комменты победителей*\n";
                 $message .= ":fire: *!rating* - статка по игрокам, сортировка по кол-ву игр\n";
                 $message .= ":fire: *!rating @name* - статка по игроку\n";
+                $message .= ":fire: https://github.com/SergeyGauert/SBotGameManager\n";
                 $this->postMessage($message, $this->mesColors['grey']);
             }
             if (stripos($data['text'], '!rating <@') === 0) {
